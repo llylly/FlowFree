@@ -1,0 +1,36 @@
+#include "normalbutton.h"
+
+NormalButton::NormalButton(QWidget *parent) : QPushButton(parent)
+{
+    this->setStyleSheet("QPushButton{color: white;"
+                        "background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);"
+                        "border-width: 1px;"
+                        "border-color: #339;"
+                        "border-style: solid;"
+                        "border-radius: 10;"
+                        "padding: 3px;"
+                        "font-size: 15px;"
+                        "padding-left: 5px;"
+                        "padding-right: 5px;}"
+                        "QPushButton:hover{color: white;"
+                        "background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #D6D6F8, stop: 0.1 #AFAFEF , stop: 0.49 #B2B2CD, stop: 0.5 #9A9ACC, stop: 1 #C1C1EF);"
+                        "border-width: 1px;"
+                        "border-color: #339;"
+                        "border-style: solid;"
+                        "border-radius: 10;"
+                        "padding: 3px;"
+                        "font-size: 15px;"
+                        "padding-left: 5px;"
+                        "padding-right: 5px;}"
+                        "QPushButton:pressed{color: white;"
+                        "background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6868C0, stop: 0.1 #45459F, stop: 0.49 #222275, stop: 0.5 #121252, stop: 1 #4848A8);"
+                        "border-width: 1px;"
+                        "border-color: #339;"
+                        "border-style: solid;"
+                        "border-radius: 10;"
+                        "padding: 3px;"
+                        "font-size: 15px;"
+                        "padding-left: 5px;"
+                        "padding-right: 5px;}" );
+}
+

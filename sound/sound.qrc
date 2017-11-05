@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/sound">
+        <file>good.wav</file>
+        <file>naive.wav</file>
+        <file>victory.wav</file>
+        <file>open.wav</file>
+        <file>backMusic.mp3</file>
+    </qresource>
+</RCC>
